@@ -28,6 +28,7 @@ let error = document.querySelector(".error");
 
 function cardData(data) {
   error.innerText = ``;
+  userInput.value = "";
   const {
     avatar_url,
     bio,
